@@ -9,7 +9,7 @@ import {useState} from 'react';
  * or from a dropdown of available pokemon. */
 function PokeDex() {
   // store selected pokeon in state
-  // use value in in url
+  // use value in url
   // pass setSelected down to PokemonSelect
   // page renders with pikachu selected so make pikachu initial state
   const [selectedPokemon, setSelectedPokemon] = useState('pikachu')
