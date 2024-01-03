@@ -11,8 +11,8 @@ function CardTable() {
         <h1 className="CardTable-heading">Check out all my cards</h1>
       </header>
       <main>
-        <PlayingCardList />
-        <PokeDex />
+        <PlayingCardList key='1'/>
+        <PokeDex key="2"/>
       </main>
     </div>
   );
